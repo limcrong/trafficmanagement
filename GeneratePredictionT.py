@@ -42,7 +42,7 @@ def increaseT(d,hr,m):
     if(hr > 22.5) & (m > 35):
         return d+1,0,0
     if(m>35):
-        return d,hr+1,m
+        return d,hr+1,0
     return d,hr,m+15
 def getLastT(df):
     lastday = df.iloc[-1,:]['day']
