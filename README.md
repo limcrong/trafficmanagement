@@ -66,7 +66,7 @@ I had spent most of the time coming up with features and testing the effectivene
 * Distance to high demand 5 - Distance to highest demand zone
 * Distance to high demand 7 - Distance to second highest demand zone
 ```
-
+![alt text](https://raw.githubusercontent.com/limcrong/trafficmanagement/master/working/zonescluster.JPG)
 ```
 
 ## Feature Engineering
