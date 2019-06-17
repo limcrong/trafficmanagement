@@ -13,6 +13,10 @@ Main Files:
  * `GenerateFeatures.py` - script for generating features in the process.
  * `submission.csv` - final output
 
+Other Files:
+* `StaticValues` - Static values for mapping of features that are generated previously
+* `Scaler` - scaler is generated during training to prevent data leakage
+
 ### Prerequisites
 
 Please ensure the following Python packages are installed before running the codes from Jupyter Notebook
@@ -50,7 +54,7 @@ Run PrepareNextFewPredictions.ipynb to generate T+1 to T+5 predictions
 
 ## Preprocessing
 
-I had spent a lot of time coming up with features and testing the effectiveness of it.
+I had spent most of the time coming up with features and testing the effectiveness of it.
 
 
 ### Static features
@@ -103,6 +107,6 @@ I had spent a lot of time coming up with features and testing the effectiveness 
 
 ## Acknowledgments
 
-Many thanks to grab and sponsors AWS for providing credits. My laptop crashed a day before submission and I had to rewrite most of the code so I was thankful for the cloud credits available for me to continue my work.
+Many thanks to grab and sponsor AWS for providing credits. I am truly grateful for the opportunity to work on this challenge as I have learnt alot from it. My laptop crashed a day before submission and I had to rewrite most of the code so I was thankful for the cloud credits available for me to continue my work. Some of the code that generated the static values might not be there as I am unable to recover it from my laptop yet, but it can be provided upon request.
 
 
