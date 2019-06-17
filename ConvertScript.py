@@ -12,11 +12,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.externals import joblib
 from sklearn.metrics import mean_squared_error
-from keras.models import load_model
-from keras import backend as K
-import keras.losses
 from math import sqrt
-import keras
 import pickle
 
 
