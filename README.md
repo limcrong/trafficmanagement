@@ -100,9 +100,14 @@ I had spent most of the time coming up with features and testing the effectivene
 * Duration of high demand
 * Log scale distance
 
+## Validation 
+* Validation done on training dataset. Did a 4 fold validation using 14 days of data and testing on next day.
+
 ## Models Model
 * Xgboost:6 xgboost models trained in rolling window fashion from 14 days
 * Xgboost(backup) 5 xgboost models trained from 4 week rolling windows from 60 days dataset
+* Model hyperparameters were manually adjusted. 
+* Tried an ensemble with KNNRegressor and Stacked LSTM but results wasn't so good
 
 
 ## Acknowledgments
