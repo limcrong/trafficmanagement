@@ -38,7 +38,7 @@ Please ensure the following Python packages are installed before running the cod
 
 
 ```
-Run GenerateFeatures.ipynb to generate features from the test set
+Run GenerateFeatures.ipynb to generate features from the test set. Change training.csv to whatever the test csv is called
 ```
 
 
