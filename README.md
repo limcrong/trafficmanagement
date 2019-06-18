@@ -43,12 +43,12 @@ Run GenerateFeatures.ipynb to generate features from the test set. Change traini
 
 
 ```
-Run training.ipynb to train models from the features
+Run training.ipynb to train models from the features. (Training took around 10-15 minutes using 16core aws instance during test of 14 days data)
 ```
 
 
 ```
-Run PrepareNextFewPredictions.ipynb to generate T+1 to T+5 predictions
+Run PrepareNextFewPredictions.ipynb to generate T+1 to T+5 predictions. Uses prediction of T+1 as features for T+2
 ```
 
 
