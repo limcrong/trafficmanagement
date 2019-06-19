@@ -108,6 +108,8 @@ I had spent most of the time coming up with features and testing the effectivene
 * Xgboost(backup) 5 xgboost models trained from 4 week rolling windows from 60 days dataset
 * Model hyperparameters were manually adjusted. 
 * Tried an ensemble with KNNRegressor and Stacked LSTM but results wasn't so good
+* Tried adding models trained using a specific day of week only, applied bagging and used it to predict the day of week, 
+  did not improve results significantly
 
 
 ## Acknowledgments
